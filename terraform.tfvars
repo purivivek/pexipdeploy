@@ -1,0 +1,15 @@
+env_prefix = "pexip-sandbox"
+project = "testssh-211822"
+region          = "us-central1"
+uszones = ["us-central1-a", "us-central1-b", "us-central1-c"]
+euzones = ["europe-west1-d", "europe-west1-b", "europe-west1-c"]
+apzones = ["asia-east1-a", "asia-east1-b", "asia-east1-c"]
+project     = "testssh-211822"
+credentials     = "cred.json"
+region_for_na="us-central1"
+region_for_apac="asia-east1"
+region_for_eu="europe-west1"
+pexipnode_image_url = "https://storage.googleapis.com/pexip-v19-gcp/Pexip_Infinity_v19_GCP_ConfNode_43079.tar.gz"
+pexipman_image_url  = "https://storage.googleapis.com/pexip-v19-gcp/Pexip_Infinity_v19_GCP_pxMgr_43079.tar.gz"
+gce_ssh_user="admin"
+gce_ssh_pub_key_file="admin.pub"
