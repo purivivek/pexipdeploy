@@ -84,7 +84,6 @@ resource "google_compute_firewall" "default-allow-internal" {
   }
 
   source_ranges = ["0.0.0.0/0"]
-  target_tags   = ["pexip-conferencing"]
 }
 
 resource "google_compute_firewall" "pexip-allow-provisioning" {
